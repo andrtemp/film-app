@@ -25,7 +25,7 @@
             }
         },
         methods: {
-            rate: (mark, index) =>{
+            rate: function (mark, index) {
                 this.$store.commit('changeRate', {index: index, value: mark});
             }
         }

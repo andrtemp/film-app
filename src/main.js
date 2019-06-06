@@ -11,6 +11,7 @@ const routes = [
   { path: '/rated', component: App.components.Rated },
   { path: '/latest', component: App.components.Latest },
   { path: '/list', component: App.components.List },
+  { path: '/auth', component: App.components.Auth },
 ];
 
 const router = new VueRouter({

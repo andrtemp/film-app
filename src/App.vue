@@ -17,11 +17,12 @@ import List from './components/List.vue'
 import Latest from './components/Latest.vue'
 import Header from './components/template/Header.vue'
 import Footer from './components/template/Footer.vue'
+import Auth from './components/Auth.vue'
 
 export default {
   name: 'app',
   components: {
-    Home, Film, Header, Footer, Rated, List, Latest
+    Home, Film, Header, Footer, Rated, List, Latest, Auth
   }
 }
 </script>

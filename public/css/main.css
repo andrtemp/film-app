@@ -1,0 +1,27 @@
+.page-footer {
+    position:relative;
+    bottom:0;
+    height: 5vh; /* Height of the footer */
+}
+
+.app{
+    min-height: 85vh;
+    padding-bottom: 5vh;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.list{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.list .card{
+    width: 25%;
+}
+
+.pull-right{
+    float: right;
+}

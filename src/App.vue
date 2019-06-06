@@ -1,17 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Header />
+    <div class="container app">
+      <!-- отображаем тут компонент, для которого совпадает маршрут -->
+      <router-view></router-view>
+    </div>
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
+import Film from './components/Film.vue'
+import Rated from './components/Rated.vue'
+import List from './components/List.vue'
+import Latest from './components/Latest.vue'
+import Header from './components/template/Header.vue'
+import Footer from './components/template/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Home, Film, Header, Footer, Rated, List, Latest
   }
 }
 </script>
